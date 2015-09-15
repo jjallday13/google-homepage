@@ -10,6 +10,22 @@ fieldset {
 	border: 0px ;
 }
 
+ul {
+	float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+	color: #606060;
+}
+
 #nothing {
 	height: 200px;
 }
@@ -35,6 +51,10 @@ fieldset {
 
 #box:hover {
 	border-color: blue;
+}
+
+#submits:hover {
+
 }
 
 #footer {
